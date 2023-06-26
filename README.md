@@ -79,11 +79,51 @@ While this can't be easily done in Tableau Public, we can get some practice usin
 
 ## Final Visualization and Conclusion
 
-### The final visualization can be found [here](https://public.tableau.com/app/profile/ryan.moore6603/viz/FestivalAlarmDatabaseVisualization/FestivalAlarmDashboard).
+#### The final visualization can be found [here](https://public.tableau.com/app/profile/ryan.moore6603/viz/FestivalAlarmDatabaseVisualization/FestivalAlarmDashboard).
 
 <div style="text-align: center;">
   <img src="images/festival_map.png" alt="Website Screen 2" width="60%" style="border-radius: 10px;">
 </div>
+
+*Thoughts on the data*
+
+- The data on the website is user submitted, so there is no guarantee that it is accurate.
+- This is pretty readily apparant in the 'visitors' column, where some festivals have a visitor count of 0 and others have a visitor count of 500,000. When doing any kind of hard math over this data, it is important to keep in mind that the data is likely not accurate and would need to be verified before making any kind of business decision based on it.
+- The data is also not very clean. There are a lot of null values and the data is not formatted in a way that is easy to work with. This is not surprising as the data is user submitted and there does not appear to be a rigorous vetting process for the data.
+- The data is also not very consistent. For example, the 'Date' column is formatted differently depending on the year the festival took place. This makes it difficult to work with the data and requires a lot of cleaning before it can be used.
+
+*Findings in the visualizations*
+
+- The visualizations show that the majority of festivals take place in the summer months, which is not surprising.
+- The visualizations also show that the majority of festivals take place in Germany; this is likely because the website is based in Germany and the majority of the users are from Germany.
+- I was suprised to find that the majority of festivals are free. I would have thought that the majority of festivals would have a ticket price, but this is not the case. This is likely because the majority of festivals are small, local festivals that are free to attend.
+- I was suprised to see that rock was the most represented genre in the data. I would have thought that electronic music or metal would have been the most represented genre due to my past experiences with European festivals. Also suprising was that pure rock festivals were not the highest attended festivals. However, due to the irregularity of the data, it is likely that this data is not accurate and would need to be verified.
+
+*Webscraping*
+
+- Webscraping with Beautiful Soup is a powerful tool for extracting data from websites, and is suprisingly easy to use. HTML code is super hard to read, but Beautiful Soup makes it easy to navigate through the code and extract the data you need.
+- I will definitely be using this tool in the future for extracting data from websites when a formal API is not available. 
+- I'm glad that the FLatiron bootcamp introduced me to this tool, but also taught me how to use it in a way that is not unethical. 
+- I'm learning more and more about the foundations of all this great tech, and i'm suprised that so much of it is open source. There was so much open source collaboration in the past that chose innovation over profit, and I think that is a great thing. Webscraping is the first instance where there is more of a dialouge about the ethics of using the code to scrape websites. While I agree with the fundatmentals of collaboration, I also think that it is important to respect the wishes of the website owner. If they don't want you to scrape their website, then you shouldn't scrape their website.
+
+*APIs*
+
+- Man, for the longest time, the word API scared me. It was such a vague word and I didn't understand how it worked in practice
+- However, after working with the GoogleMaps API, I have a much better understanding of how APIs work and how to use them.
+- This is really promising, as i'm sure AI and ML will be using APIs to communicate with each other in the future. I'm glad that I have a better understanding of how they work now.
+
+*Tableau*
+
+- I'm really glad that I took the Tableau certification course. I learned a lot about how to use Tableau and how to create visualizations that are easy to understand and tell a story.
+- However, in practice, with unclean data, it can be difficult to create visualizations that tell a story. I think that this is a good thing, as it forces you to think about the data and how to clean it in order to tell a story.
+- It also *really* does not like European addresses. I had to use the GoogleMaps API to get the latitude and longitude of each festival in order to get accurate locations for each festival. This was a great opportunity to do some tangential learning and get some practice using the GoogleMaps API.
+- There are certainly limitations when using one-hot encoded data in Tableau. For example, if you want to create a visualization that shows the number of festivals in each genre, you have to create a calculated field for each genre. This can be tedious and time consuming and not in the spirit of what I was hoping to get out of this project
+
+## Next Steps
+
+- I would like to create a more robust webscraper that can scrape the data from the website on a regular basis. This would allow me to create a database that is updated regularly and can be used to create visualizations that are more accurate.
+- I would also like to continue build on the visualizations that I created in Tableau. I would like to create a dashboard that allows the user to filter the data by country, genre, and date. This would allow the user to get a better understanding of the festival landscape in Europe and make better decisions about which festivals to attend.
+- I would also like to see if there is any way to verify the data on the website through use of some other APIs. This would allow me to create visualizations that are more accurate and can be used to make decisions about which festivals to attend.
 
 ## Using this Repository
 
