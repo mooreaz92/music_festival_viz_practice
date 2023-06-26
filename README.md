@@ -1,7 +1,7 @@
 ## Project Overview and Objectives
 
 <div style="text-align:center">
-    <img src="images/festival.jpg" style="width: 20%; border-radius: 10px;"/>
+    <img src="images/festival.jpg" style="width: 50%; border-radius: 10px;"/>
 </div>
 
 #### *Overview*
@@ -31,13 +31,13 @@ If anyone from Festival Alarm reads this and would like me to take down this pro
 The target website looks like this:
 
 <div style="text-align: center;">
-  <img src="images/website_screen_1.png" alt="Website Screen 1" width="35%" style="border-radius: 10px;">
+  <img src="images/website_screen_1.png" alt="Website Screen 1" width="40%" style="border-radius: 10px;">
 </div>
 
 The above example is for the year of 2023. In order to change years, you must click on the year in the top right corner of the screen. This will bring you to a page that looks like this:
 
 <div style="text-align: center;">
-  <img src="images/website_screen_2.png" alt="Website Screen 2" width="20%" style="border-radius: 10px;">
+  <img src="images/website_screen_2.png" alt="Website Screen 2" width="40%" style="border-radius: 10px;">
 </div>
 
 From here, you can click on the year you want to view and a table like the first screenshot will pop up. The table contains the following fields (I have added what I believe each field to mean in italics):
@@ -82,7 +82,7 @@ While this can't be easily done in Tableau Public, we can get some practice usin
 ### The final visualization can be found [here](https://public.tableau.com/app/profile/ryan.moore6603/viz/FestivalAlarmDatabaseVisualization/FestivalAlarmDashboard).
 
 <div style="text-align: center;">
-  <img src="images/festival_map.png" alt="Website Screen 2" width="50%" style="border-radius: 10px;">
+  <img src="images/festival_map.png" alt="Website Screen 2" width="60%" style="border-radius: 10px;">
 </div>
 
 ## Using this Repository
